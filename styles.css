@@ -1,0 +1,141 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    border:6px solid white;
+    border-radius:50px;
+}
+
+#cover-img {
+    /* position: absolute; */
+    /* width: 720px; */
+    max-width: 100%;
+    height: 343px;
+    margin-left: auto;
+    margin-top: 0px;
+    margin-bottom:0px;
+    margin-right: auto;
+    background-image: url("https://www.shutterstock.com/shutterstock/photos/1500203888/display_1500/stock-photo-auchi-edo-state-nigeria-september-black-people-in-the-local-town-market-buying-and-1500203888.jpg");
+    background-size:cover;
+    object-fit: contain;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.my-district {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+#visit-auchi {
+    /* position: absolute; */
+    margin-top: 120px;
+    margin-bottom: 0px;
+    width: 400px;
+    height: 34px;
+    left: 259px;
+    top: 122px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    color: #FFFFFF;
+    background:#1D3557;
+    /* display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center; */
+    padding:6px 15px 2px;
+    border-radius:10px;
+}
+
+#enjoy-visit{
+    /* position: absolute; */
+    /* margin-top: 130px; */
+    width: 550px;
+    height: 39px;
+    left: 182px;
+    top: 177px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18.72px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFf;
+    background:#457B9D;
+    border-radius: 10px;
+    padding: 8px 25px 5px;
+    margin-top: 10px;
+}
+.activities{
+    background: #F1FAEE; 
+}
+.food-items{
+    margin-top: 32px;
+}
+.food_cat {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    align-items: center;
+}
+.groundnut-img, .yam-img, .garri-img {
+    border-radius:50%;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+.source-hint{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.food-source{
+    margin-top: 10px;
+}
+
+img {
+    width: 150px;
+}
+
+.guide-section {
+    background: #FFFFFF;
+}
+#guide-img{
+    border-radius:10px;;
+    width:200px;
+    height: 200px;
+}
+.guide-components{
+    background: #A8DADC;
+    display:flex;
+    max-width: 100%;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 15px 10px;
+    text-align:center;
+    justify-content: center;
+    /* margin-left: auto;
+    margin-right: auto; */
+    align-items: center;
+    color: #2b2839;
+    text-shadow: 0px 0px 1px black;
+    border-bottom: 6px solid #1D3557;
+    /* width:400px; */
+    height: 220px;
+    margin: 40px 150px;
+    border-radius: 10px;
+}
